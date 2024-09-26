@@ -1,0 +1,5 @@
+#maisha tapia, Proficency test
+
+name = input("Type in a name: ")
+verb1 = input("Type in a verb: ")
+adj1 = input("Typpe in a adj: ")
