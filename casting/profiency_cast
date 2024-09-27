@@ -1,0 +1,16 @@
+#Maisha Tapia, proficiency test 
+
+print("Welcome to this survery, today you will answer some questions." )
+name = input("What is your name: ")
+age = input("what is your age:")
+height = input("What is your height in meters: ")
+num = input("What is your favorite number: ")
+
+age2 = int(age)
+height2 = float(height)
+num2 = int(num)
+
+print(name)
+print(age, age2)
+print(height, height2)
+print(num, num2)
