@@ -1,0 +1,43 @@
+#Maisha tapia, Profiency test
+
+score = 0
+
+question1 = input("Who was the most popular band member in the beatles")
+ans_1= ("Paul Mcartney")
+
+if question1 == ans_1: 
+    score +=1
+else:
+    print("That is incorrect")
+
+question2 = input("Who was the 8th president of th united states")
+ans_2= ("Martin Van Buren")
+
+if question2 == ans_2: 
+    score +=1
+else:
+    print("That is incorrect")
+
+question3 = input("Who was the voice actor for Elmo in sesame street")
+ans_3= ("Kevil Clash")
+
+if question3 == ans_3: 
+    score +=1
+else:
+    print("That is incorrect")
+question4 = input("The most sold out book in the world")
+ans_4= ("The bible")
+
+if question4 == ans_4: 
+    score +=1
+else:
+    print("That is incorrect")
+question5 = input("When was slavery abolished")
+ans_5= ("December 6, 1865")
+
+if question5 == ans_5: 
+    score +=1
+else:
+    print("That is incorrect")
+
+print("Nice work! You have finished this test: Your total score is", score)

@@ -1,0 +1,17 @@
+#Maisha tapia, Profiecency test
+operations = input("Which arthmetic operation would you like to use?")
+num1= float(input("What is the first value?"))
+num2= float(input("What is the second value?"))
+
+if operations == '+':
+    print(num1 + num2)
+elif operations == '-':
+    print(num1 - num2)
+elif operations == '/':
+   print(round(num1/num2))
+elif operations == '*':
+    print(num1 * num2)
+elif operations == '**':
+    print(num1 ** num2)
+elif operations == '%':
+    print(num1 % num2)
