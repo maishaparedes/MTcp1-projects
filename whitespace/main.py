@@ -5,16 +5,16 @@ def display_intro():
     print("Your goal is to find the hidden treasure and escape safely.")
 def make_choice(options):
     for i,option in enumerate(options,1):
-        print(f"{i}. {option}")
-while True:
-    try:
-        choice=int(input("Enter your choice: "))
-        if 1<=choice<=len(options):
-            return choice
-        else:
-            print("Invalid choice. Try again.")
-    except ValueError:
-        print("Please enter a number.")
+        print(f"{i}.{option}")
+    while True:
+        try:
+            choice=int(input("Enter your choice: "))
+            if 1<=choice<=len(options):
+                return choice
+            else:
+                print("Invalid choice. Try again.")
+        except ValueError:
+            print("Please enter a number.")
 def explore_forest():
     print("You venture deeper into the forest...")
     events=["You encounter a friendly woodland creature.","You find a shimmering portal.","You discover an ancient ruins.","You come across a bubbling stream."]
